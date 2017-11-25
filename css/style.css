@@ -1,3 +1,7 @@
+body{
+    font-family: montserrat
+}
+
 .hero{
     height: 600px;
     background-color: green;
