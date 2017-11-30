@@ -14,54 +14,90 @@ body{
 }
 
 .teksthomepagina{
+<<<<<<< HEAD
     background-color: lightgray;
+=======
+    background-color: grey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 400px
 }
 
 .tekstabout{
+<<<<<<< HEAD
     background-color: grey;
+=======
+    background-color: darkgrey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 600px;
 }
 
 .footer{
+<<<<<<< HEAD
     background-color: darkslategray;
+=======
+    background-color: lightgrey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 50px
 }
 
 .heroabout{
+<<<<<<< HEAD
     background-color: darkolivegreen;
+=======
+    background-color: grey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 550px;
     background-position: center;
     background-size: cover;
 }
 
 .afbeeldingabout {
+<<<<<<< HEAD
     background-color: coral;
+=======
+    background-color: darkolivegreen;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 600px
 }
 
 .meettheteamtitel{
+<<<<<<< HEAD
     background-color: gray;
+=======
+    background-color: grey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 300px
 }
 
 .persoon1{
-    background-color: grey;
+    background-color: lightgray;
     height: 400px
 }
 
 .persoon2{
+<<<<<<< HEAD
     background-color: lightgrey;
+=======
+    background-color: grey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 400px
 }
 
 .persoon3{
+<<<<<<< HEAD
     background-color: coral;
+=======
+    background-color: lightgrey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 400px
 }
 
 .heromenu{
+<<<<<<< HEAD
     background-color: pink;
+=======
+    background-color: darkgrey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 300px
 }
 
@@ -71,7 +107,11 @@ body{
 }
 
 .tekstmenu2{
+<<<<<<< HEAD
     background-color: lightgray;
+=======
+    background-color: lightgrey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 300px
 }
 
@@ -91,22 +131,30 @@ body{
 }
 
 .heroreserveren{
+<<<<<<< HEAD
     background-color:darkgrey;
+=======
+    background-color: darkgray;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 350px
 }
 
 .reserverenmenu{
+<<<<<<< HEAD
     background-color: khaki;
+=======
+    background-color: grey;
+>>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 700px
 }
 
 .herocontact{
-    background-color: grey;
+    background-color: darkgrey;
     height: 500px
 }
 
 .contactformulier{
-    background-color: pink;
+    background-color: lightslategray;
     height: 500px
 }
 
