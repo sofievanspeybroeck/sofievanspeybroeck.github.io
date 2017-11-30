@@ -4,7 +4,7 @@ body{
 
 .hero{
     height: 600px;
-    background-color: green;
+    background-color: darkgray;
     background-position: center;
     background-size: cover;
 }
@@ -14,34 +14,34 @@ body{
 }
 
 .teksthomepagina{
-    background-color: red;
+    background-color: lightgray;
     height: 400px
 }
 
 .tekstabout{
-    background-color: green;
+    background-color: grey;
     height: 600px;
 }
 
 .footer{
-    background-color: blue;
+    background-color: darkslategray;
     height: 50px
 }
 
 .heroabout{
-    background-color: yellow;
+    background-color: darkolivegreen;
     height: 550px;
     background-position: center;
     background-size: cover;
 }
 
 .afbeeldingabout {
-    background-color: pink;
+    background-color: coral;
     height: 600px
 }
 
 .meettheteamtitel{
-    background-color: orange;
+    background-color: gray;
     height: 300px
 }
 
@@ -51,32 +51,32 @@ body{
 }
 
 .persoon2{
-    background-color: red;
+    background-color: lightgrey;
     height: 400px
 }
 
 .persoon3{
-    background-color: purple;
+    background-color: coral;
     height: 400px
 }
 
 .heromenu{
-    background-color: yellow;
+    background-color: pink;
     height: 300px
 }
 
 .tekstmenu1{
-    background-color: green;
+    background-color: grey;
     height: 300px
 }
 
 .tekstmenu2{
-    background-color: orange;
+    background-color: lightgray;
     height: 300px
 }
 
 .tekstmenu3{
-    background-color: brown;
+    background-color: grey;
     height: 300px
 }
 
@@ -86,17 +86,17 @@ body{
 }
 
 .afbeeldingmenu2{
-    background-color: lightseagreen;
+    background-color: grey;
     height: 250px
 }
 
 .heroreserveren{
-    background-color: red;
+    background-color:darkgrey;
     height: 350px
 }
 
 .reserverenmenu{
-    background-color: green;
+    background-color: khaki;
     height: 700px
 }
 
