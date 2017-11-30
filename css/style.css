@@ -1,5 +1,9 @@
 body{
-    font-family: montserrat
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Fira Sans', sans-serif; 
 }
 
 .hero{
@@ -14,58 +18,59 @@ body{
 }
 
 .teksthomepagina{
-<<<<<<< HEAD
     background-color: lightgray;
-=======
-    background-color: grey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
-    height: 400px
+    height: 600pxpx
+}
+
+.titel{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.titelmenu{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 30px
+}
+
+.alinea{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px
+}
+
+.alineamenu{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 12pt
 }
 
 .tekstabout{
-<<<<<<< HEAD
     background-color: grey;
-=======
-    background-color: darkgrey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
-    height: 600px;
 }
 
 .footer{
-<<<<<<< HEAD
     background-color: darkslategray;
-=======
-    background-color: lightgrey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 50px
 }
 
 .heroabout{
-<<<<<<< HEAD
-    background-color: darkolivegreen;
-=======
-    background-color: grey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
+    background-color: darkgrey;
     height: 550px;
     background-position: center;
     background-size: cover;
 }
 
 .afbeeldingabout {
-<<<<<<< HEAD
-    background-color: coral;
-=======
-    background-color: darkolivegreen;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
+    background-color: lightgrey;
     height: 600px
 }
 
 .meettheteamtitel{
-<<<<<<< HEAD
     background-color: gray;
-=======
-    background-color: grey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 300px
 }
 
@@ -75,29 +80,17 @@ body{
 }
 
 .persoon2{
-<<<<<<< HEAD
-    background-color: lightgrey;
-=======
-    background-color: grey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
+    background-color: lightslategray;
     height: 400px
 }
 
 .persoon3{
-<<<<<<< HEAD
-    background-color: coral;
-=======
-    background-color: lightgrey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
+    background-color: lightgray;
     height: 400px
 }
 
 .heromenu{
-<<<<<<< HEAD
-    background-color: pink;
-=======
-    background-color: darkgrey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
+    background-color: lightslategrey;
     height: 300px
 }
 
@@ -107,44 +100,32 @@ body{
 }
 
 .tekstmenu2{
-<<<<<<< HEAD
-    background-color: lightgray;
-=======
     background-color: lightgrey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 300px
 }
 
 .tekstmenu3{
-    background-color: grey;
+    background-color: lightgrey;
     height: 300px
 }
 
 .afbeeldingmenu{
-    background-color: lightcoral;
+    background-color: grey;
     height: 300px
 }
 
 .afbeeldingmenu2{
-    background-color: grey;
+    background-color: slategrey;
     height: 250px
 }
 
 .heroreserveren{
-<<<<<<< HEAD
-    background-color:darkgrey;
-=======
     background-color: darkgray;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 350px
 }
 
 .reserverenmenu{
-<<<<<<< HEAD
-    background-color: khaki;
-=======
     background-color: grey;
->>>>>>> cdf9106742fedf2bc92aba8c748226c2a01e9b95
     height: 700px
 }
 
@@ -193,6 +174,19 @@ body{
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+
+    .titel{
+        text-align: center;
+        margin-top: 100px
+    }
+    
+    .alinea{
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        margin-top: 100px
+    }
 
 }
 
