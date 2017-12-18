@@ -580,6 +580,7 @@ h1{
 .titelabout{
     padding: 200px;
     color: white;
+    background-color: black;
     font-size: 100pt;
     text-align: center;
     letter-spacing: 5px
