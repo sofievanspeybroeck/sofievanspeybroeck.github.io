@@ -29,9 +29,7 @@ h1{
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
-    
+@media (min-width: 576px) {    
     
     .titel{
         text-align: center;
@@ -58,7 +56,7 @@ h1{
     }
 
     .footer{
-    height: 200px;
+    height: 300px;
     padding: 30px;
     color: white;
     background-color: black;
@@ -67,7 +65,7 @@ h1{
 }
 
 #footer{
-    height: 200px;
+    height: 300px;
     padding: 30px;
     color: white;
     background-color: black;
@@ -83,7 +81,7 @@ h1{
 .titelabout{
     padding: 70px;
     color: white;
-    font-size: 100pt;
+    font-size: 70pt;
     text-align: center;
     letter-spacing: 5px
 }
@@ -431,14 +429,9 @@ h1{
     background-position-y: -48px;
     
 }
-}
-
-
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
 
 }
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -792,8 +785,6 @@ h1{
     background-position-y: -48px;
     
 }
-
-
 
 }
 
