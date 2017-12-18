@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,72 +8,123 @@
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon"> 
     <title>RESERVEREN</title>
 </head>
+
 <body>
-     <!-- content -->
-     <header>
-            <nav class="navbar fixed-top navbar-expand navbar-toggleable-sm">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- content -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand navbar-toggleable-sm">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                <a class="navbar-brand" href="#"></a>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">HOMEPAGINA <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="meettheteam.html">MEET THE TEAM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu.html">MENU</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <div class="heroreserveren">
-                    </div>
-                </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/logo.png" alt="logo" class="logomenu">
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOMEPAGINA <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meettheteam.html">MEET THE TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
             </div>
-    
-            <div class="row">
-                <div class="col-8 offset-2 reserverenmenu">
-                    <h1 class="titel">
-                        Hier komt een formulier
-                    </h1>
-                </div>
-            </div>
+        </nav>
+    </header>
 
-            <div class="row">
-                <div id="footer" class="col-12 footer"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="heroreserveren">
+                    <p>
+                        <strong>Make your order.</strong>
+                    </p>
+                    <p class="heroreserverenunder">
+                        <strong>Choose wisely ;)</strong>
+                    </p>
+                </div>
+                
             </div>
-    
         </div>
-        <!-- end content -->
-            <!-- Bootstrap core JavaScript
+
+        <div class="row">
+            <div class="col-8 offset-2 reserverenmenu">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1"> <strong>Email address</strong></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName"> <strong>What's your name?</strong></label>
+                        <input type="name" class="form-control" id="exampleInputname" aria-describedby="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect1"><strong>How many foodtrucks would you like?</strong></label>
+                        <select class="form-control" id="exampleSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect1"><strong>What kind of special day is it?</strong></label>
+                        <select class="form-control" id="exampleSelect1">
+                            <option>Wedding</option>
+                            <option>Birthday</option>
+                            <option>Casual party</option>
+                            <option>Fancy party</option>
+                            <option>No reason</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="example-date-input"> <strong>When do you need us?</strong></label>
+                        <input class="form-control" type="date" value="2018-01-19" id="example-date-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleTextarea"><strong>Are their any special needs/questions?</strong></label>
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary buttonsubmit"><strong>Send in this order!</strong></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="footer" class="col-12 footer">
+                <strong>PDF-Document</strong>
+            </div>
+        </div>
+
+    </div>
+    <!-- end content -->
+    <!-- Bootstrap core JavaScript
             ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-            crossorigin="anonymous"></script>
-        <script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script>
                 function initMap() {
                     var uluru = new google.maps.LatLng(20.5083132,-12.356077);
                     
@@ -86,9 +138,10 @@
                   });
                 }
         </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKGpIViYBo83CLe4P6_dwQXka_8OV5RgE&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKGpIViYBo83CLe4P6_dwQXka_8OV5RgE&callback=initMap">
         </script>
-        <script src="./js/vendor/jquery.loupe.min.js"></script>
-        <script src="./js/script.js"></script>
+    <script src="./js/vendor/jquery.loupe.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

@@ -1,25 +1,37 @@
 body{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
 }
+
 
 h1{
-    font-family: 'Fira Sans', sans-serif; 
-}
-
-.hero{
-    height: 600px;
-    background-color: darkgray;
-    background-position: center;
-    background-size: cover;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand{
-    height: 40px
+    height: 60px;
+}
+
+.navbar{
+    background: transparent
+}
+
+.heroimg{
+    width: 100%
+}
+
+.logomenu{
+    height: 50px;
+    text-align: left
 }
 
 .teksthomepagina{
-    background-color: lightgray;
-    height: 600pxpx
+    background-color: white;
+}
+
+.titelhomepagina{
+    text-align: center;
+    margin-top: 100px
 }
 
 .titel{
@@ -27,126 +39,227 @@ h1{
     margin-top: 100px;
 }
 
-.titelmenu{
-    text-align: left;
-    margin-left: 100px;
-    margin-top: 30px;
-    font-size: 30px
-}
-
 .alinea{
-    text-align: center;
+    text-align: right;
     margin-left: 300px;
     margin-right: 300px;
-    margin-bottom: 100px
+    margin-top: 0;
+}
+
+.heroabout{
+    background-color: black;
+    width: 100%
+}
+
+.titelabout{
+    padding: 200px;
+    color: white;
+    font-size: 100pt;
+    text-align: center;
+    letter-spacing: 5px
+}
+
+.titelmtt{
+    padding: 200px;
+    color: white;
+    font-size: 80pt;
+    text-align: center;
+    letter-spacing: 5px
+}
+
+.tekstabout{
+    text-align: left;
+    padding: 100px;
+    font-size: 15pt
+}
+
+.video{
+    padding: 30px;
+    text-align: right
+}
+
+
+.alineaindex{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 50px
+    }
+
+.footer{
+    height: 100px;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    z-index: 20
+}
+
+#footer{
+    height: 100px;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    z-index: 20
+}
+
+.footertekst{
+    text-align: left
+}
+
+.quoteabout{ 
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 30pt;
+    padding: 100px
+}
+
+.foodtruck{
+    width: 100%
+}
+
+.meettheteamtitel{
+    background-color: black
+}
+
+.heromenu{
+    background-color: black;
+}
+
+.titelheromenu{
+    padding: 200px;
+    color: white;
+    font-size: 100pt;
+    text-align: center;
+    letter-spacing: 5px
+}
+
+.titelmenu{
+    text-align: left;
+    padding: 30px;
+    font-size: 30px;
+    margin-top: 50px
 }
 
 .alineamenu{
     text-align: left;
     margin-left: 100px;
-    margin-top: 20px;
-    font-size: 12pt
+    font-size: 15pt;
+    margin-bottom: 50px
 }
 
-.tekstabout{
-    background-color: grey;
+.titelmenuvideo{
+    text-align: left;
+    padding: 30px;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 50px
 }
 
-.footer{
-    background-color: darkslategray;
-    height: 50px
+.reservatie{
+    text-align: center
 }
 
-.heroabout{
-    background-color: darkgrey;
-    height: 550px;
-    background-position: center;
-    background-size: cover;
+.buttonreservatie{
+    margin-top: 50px;
+    color: black;
+    background-color: rgb(237, 191, 62);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30pt;
+    border: none;
+    padding: 30px;
 }
 
-.afbeeldingabout {
-    background-color: lightgrey;
-    height: 600px
+.buttonreservatie:hover{
+    color: white;
+    background-color: black
 }
 
-.meettheteamtitel{
-    background-color: gray;
-    height: 300px
+.buttonsubmit{
+    margin-top: 50px;
+    color: black;
+    background-color: rgb(237, 191, 62);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    border: none;
+    padding: 20px;
 }
 
-.persoon1{
-    background-color: lightgray;
-    height: 400px
-}
-
-.persoon2{
-    background-color: lightslategray;
-    height: 400px
-}
-
-.persoon3{
-    background-color: lightgray;
-    height: 400px
-}
-
-.heromenu{
-    background-color: lightslategrey;
-    height: 300px
-}
-
-.tekstmenu1{
-    background-color: grey;
-    height: 300px
-}
-
-.tekstmenu2{
-    background-color: lightgrey;
-    height: 300px
-}
-
-.tekstmenu3{
-    background-color: lightgrey;
-    height: 300px
-}
-
-.afbeeldingmenu{
-    background-color: grey;
-    height: 300px
-}
-
-.afbeeldingmenu2{
-    background-color: slategrey;
-    height: 250px
+.buttonsubmit:hover{
+   color: white;
+    background-color: black
 }
 
 .heroreserveren{
-    background-color: darkgray;
-    height: 350px
+    background-color: black;
+    color: white;
+    font-size: 100pt;
+    text-align: center;
+    padding: 200px
+}
+
+.heroreserverenunder{
+    color: rgb(237, 191, 62);
+    font-size: 20pt
 }
 
 .reserverenmenu{
-    background-color: grey;
-    height: 700px
+    font-family: 'Raleway', sans-serif;
+    padding: 100px
+}
+
+.calltoaction{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black
 }
 
 .herocontact{
-    background-color: darkgrey;
-    height: 500px
+    background-color: rgb(237, 191, 62);
+    color: black;
+    text-align: center;
+    padding: 200px
+}
+
+.titelcontact{
+    font-size: 100pt
 }
 
 .contactformulier{
-    background-color: lightslategray;
-    height: 500px
+    font-family: 'Raleway', sans-serif;
+    padding: 100px;
+    
 }
 
-.maps{
-    background-color: lightsalmon;
-    height: 500px
+.buttoncontact{
+    margin-top: 30px;
+    color: black;
+    background-color: rgb(237, 191, 62);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    border: none;
+    padding: 20px;
+}
+
+.buttoncont{
+    text-align: center
+}
+
+.buttoncontact:hover{
+    color: white;
+    background-color: black;
 }
 
 .article {
     padding: 40px;
 }
+
 
 .article-small {
     padding: 20px;
@@ -169,23 +282,97 @@ h1{
     padding: 5px 10px;
 }
 
+.persoon{
+    text-align: center;
+    color: white;
+    background-color: rgb(237, 191, 62);
+    height: 600px;
+    padding: 100px
+}
 
+.persoon1{
+    height: 220px;
+    width: 200px;
+    padding: 30px
+}
+
+.persoon2{
+    height: 220px;
+    width: 200px;
+    padding: 30px
+}
+
+.persoon3{
+    height: 220px;
+    width: 200px;
+    padding: 30px
+}
+
+.naampersoon{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30pt
+}
+
+.sprite{
+    width: 48px;
+    height: 48px;
+    background-image: url('../images/spritesheet.png');
+    position: relative;
+}
+
+.sprite-facebook{
+    background-position-x: 0px;
+
+}
+
+.sprite-twitter{
+    background-position-x: 48px;
+
+}
+
+.sprite-playbutton {
+    background-position-x: 96px;
+}
+
+.sprite-mail{
+    background-position-x: 144px;
+    
+}
+
+.sprite-facebook:hover {
+    background-position-y: -48px
+}
+
+.sprite-twitter:hover{
+    background-position-y: -48px
+
+}
+
+.sprite-playbutton:hover {
+    background-position-y: -48px
+}
+
+.sprite-mail:hover {
+    background-position-y: -48px;
+    
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
+    
     .titel{
         text-align: center;
         margin-top: 100px
     }
     
     .alinea{
-        text-align: center;
+        text-align: right;
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 100px;
-        margin-top: 100px
+        margin-top: 50px
     }
 
 }
