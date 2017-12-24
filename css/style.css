@@ -22,7 +22,11 @@ h1 {
 }
 
 .navbar-collapse {
-    margin-left: 20px
+    margin-left: 20px;
+}
+
+#navbarNavDropdown{
+    background-color: rgb(251, 233, 150)
 }
 
 .heroimg {
@@ -334,6 +338,39 @@ button.btn {
     text-align: center
 }
 
+.sprite {
+        width: 48px;
+        height: 48px;
+        background-image: url('../images/spritesheet.png');
+        float: right;
+        display: block;
+    }
+    .sprite-facebook {
+        background-position-x: 0px;
+    }
+    .sprite-twitter {
+        background-position-x: 48px;
+    }
+    .sprite-youtube {
+        background-position-x: 96px;
+    }
+    .sprite-mail {
+        background-position-x: 144px;
+    }
+    .sprite-facebook:hover {
+        background-position-y: -48px
+    }
+    .sprite-twitter:hover {
+        background-position-y: -48px
+    }
+    .sprite-youtube:hover {
+        background-position-y: -48px
+    }
+    .sprite-mail:hover {
+        background-position-y: -48px;
+    }
+
+
 
 /* Large devices (desktops, 992px and up) */
 
@@ -341,6 +378,12 @@ button.btn {
     .navbar {
         background-color: transparent
     }
+
+    #navbarNavDropdown{
+        background-color: transparent
+    }
+
+
     #slide {
         position: absolute;
         left: -300px;
@@ -379,7 +422,7 @@ button.btn {
         margin-bottom: 30px
     }
     .newsletter {
-        margin-left: 610px;
+        margin-left: 590px;
         width: 100px
     }
     #email {
@@ -656,7 +699,7 @@ button.btn {
     .sprite-twitter {
         background-position-x: 48px;
     }
-    .sprite-playbutton {
+    .sprite-youtube {
         background-position-x: 96px;
     }
     .sprite-mail {
@@ -668,7 +711,7 @@ button.btn {
     .sprite-twitter:hover {
         background-position-y: -48px
     }
-    .sprite-playbutton:hover {
+    .sprite-youtube:hover {
         background-position-y: -48px
     }
     .sprite-mail:hover {
