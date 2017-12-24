@@ -6,83 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <title>HOMEPAGINA</title>
 </head>
 
 <body>
     <!-- content -->
     <header>
-        <nav class="navbar fixed-top navbar-inverse navbar-expand navbar-toggleable-sm bg-inverse">
+        <nav class="navbar fixed-top navbar-light navbar-expand navbar-toggleable-sm">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="index.html">
-                <img src="./images/logo.png" alt="logo" class="logomenu">
+            <a class="navbar-brand wrapper" href="index.html">
+                <img id="slide" src="./images/logo.png" alt="logo" class="logomenu">
             </a>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">HOMEPAGINA
+                        <a class="nav-link" href="index.html">homepagina
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
+                        <a class="nav-link" href="about.html">about</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="meettheteam.html">MEET THE TEAM</a>
+                        <a class="nav-link" href="meettheteam.html">meet the team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.html">MENU</a>
+                        <a class="nav-link" href="menu.html">menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                        <a class="nav-link" href="contact.html">contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <div class="heroimg">
-                    <img src="../images/heading.jpg" alt="heading" class="hidden-xs-down">
-                    <img src="../images/headingmobile.jpg" alt="headingmobile" class="hidden-sm-up">
+                    <h1 class="headingtitel">
+                        welcome to <br>the cupcake factory
+                    </h1>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 teksthomepagina">
-                <h1 class="titelhomepagina">
-                    Hi guys!
-                </h1>
                 <p class="alineaindex">
-                    Welcome on the new website of The Cupcake Factory! We are a small bussiness that focusses completely on the art of making 'the perfect cupcake'.
-                    <br> <br>You can visit The Cupcake Factory for its homemade (and amazingly delicious!) cupcakes with countless amounts of flavours! <br> You can choose your own flavour, topping and icing! 
-                    <br> <br>Our website allows you to get to know our new foodtruck-concept completely, but you can also just stop by and take a look at our factory. <br> <br> On this website, you can set the time and date for our foodtruck to come to your event,
-                    which will make for an amazing day (without any worries!). 
+                    welcome to the new website of the cupcake factory! <br> We are a small bussiness that focusses completely
+                    on the art of making 'the perfect cupcake'.
                     <br> <br> Feel free to look around! Enjoy! <br> <br>
                 </p>
             </div>
+            
         </div>
-
-        <div class="row">
-            <div id="footer" class="col-12 footertekst">
-                <p>
-                    Sofie Van Speybroeck - NMD-II-STDV - Arteveldehogeschool 2017-2018 - PDF-dossier 
-                </p>
+        <div class="row subscribe">
+            <div class="col-12">
+                <div class="subscribe">
+                    <form action="#">
+                        <div class="input-group">
+                            <input class="newsletter btn btn-lg" name="email" id="email" type="email" placeholder="your email" required>
+                            <button class="btn btn-info btn-lg" type="submit">subscribe</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
-    </div>
 
+        <div class="row">
+            <div id="footer" class="col-12 footertekst">
+                <div class="row">
+                    <div class="col-6">
+                        <p>
+                            Sofie Van Speybroeck - NMD-II-STDV - Arteveldehogeschool 2017-2018 - PDF-dossier
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <a href="" class="sprite sprite-facebook"></a>
+                        <a href="" class="sprite sprite-twitter"></a>
+                        <a href="" class="sprite sprite-mail"></a>
+                        <a href="" class="sprite sprite-playbutton"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- end content -->
     <!-- Bootstrap core JavaScript
         ================================================== -->

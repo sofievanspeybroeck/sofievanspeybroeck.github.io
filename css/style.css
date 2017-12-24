@@ -1,6 +1,10 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 15pt;
+    background: url(../images/bg.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%
 }
 
 h1 {
@@ -12,69 +16,117 @@ h1 {
 }
 
 .navbar {
-    background: transparent
+    background: transparent;
+    font-size: 12pt;
+    padding-left: 20px
 }
 
-.heroimg{
+.navbar-collapse {
+    margin-left: 20px
+}
+
+.heroimg {
     width: 100%;
     margin-top: 30px;
-    background-image: url("../images/headingmobile.jpg")
-}
-
-.hidden-sm-up{
-    width: 100%
-}
-
-.hidden-xs-down{
-    width: 100%
 }
 
 .logomenu {
     height: 50px;
-    text-align: left
+    text-align: left;
+    padding-left: 20px
 }
 
-.titelhomepagina {
+#slide {
+        position: absolute;
+        left: -300px;
+        -webkit-animation: slide 0.5s forwards;
+        -webkit-animation-delay: 2s;
+        animation: slide 0.2s forwards;
+        animation-delay: 0.5s;
+        margin-left: 20px
+    }
+    @-webkit-keyframes slide {
+        100% {
+            left: 0;
+        }
+    }
+    @keyframes slide {
+        100% {
+            left: 0;
+        }
+    }
+
+.headingtitel {
+    font-size: 30pt;
     text-align: center;
-    font-size: 20pt;
-    margin-top: 50px
+    padding: 20px;
+    margin-top: 150px
 }
 
 .alineaindex {
-    text-align: left;
+    text-align: center;
     font-size: 10pt;
-    padding: 40px
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px
 }
 
-.heroabout {
-    background-color: black;
+.subscribe {
+    padding: 30px;
+    margin: 0 auto
+}
+
+input.btn.btn-lg {
+    font-size: 10pt;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+button.btn {
+    background-color: rgb(210, 0, 188);
+    font-size: 10pt;
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    height: 40px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none;
+    vertical-align: middle;
+    margin-bottom: 50px
+}
+
+.btn:hover {
+    background-color: black
+}
+
+.btn:active {
+    background-color: white;
+    color: black;
+    border: none
 }
 
 .titelabout {
-    padding: 50px;
-    color: white;
-    background-color: black;
-    font-size: 80pt;
-    text-align: center;
-    letter-spacing: 5px
-}
-
-.titelmtt {
-    padding: 70px;
-    color: white;
-    font-size: 80pt;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 150px;
+    color: black;
+    font-size: 30pt;
     text-align: center;
     letter-spacing: 5px
 }
 
 .vraagabout {
     font-size: 15pt;
-    color: rgb(237, 191, 62)
+    color: rgb(210, 0, 188)
 }
 
 .tekstabout {
     text-align: left;
-    padding: 40px;
+    padding: 50px;
     font-size: 11pt
 }
 
@@ -82,99 +134,98 @@ h1 {
     font-family: 'Raleway', sans-serif;
     text-align: left;
     color: black;
-    font-size: 18pt;
-    padding: 40px
+    font-size: 25pt;
+    padding: 50px
 }
 
 .titelmtt {
-    padding: 10px;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    color: white;
-    font-size: 60pt;
+    padding: 30px;
+    margin-top: 120px;
+    color: black;
+    font-size: 30pt;
     text-align: center;
     letter-spacing: 5px
 }
 
-.meettheteamtitel {
-    background-color: black:
-}
-
 .persoon {
     text-align: center;
-    color: white;
-    background-color: rgb(237, 191, 62);
-    height: 500px;
+    color: black;
+    height: 450px;
     padding: 50px
 }
 
 .persoon1 {
-    height: 220px;
-    width: 200px;
+    height: 200px;
+    width: 180px;
     padding: 10px
 }
 
 .persoon2 {
-    height: 220px;
-    width: 200px;
+    height: 200px;
+    width: 180px;
     padding: 10px
 }
 
 .persoon3 {
-    height: 220px;
-    width: 200px;
+    height: 200px;
+    width: 180px;
     padding: 10px
 }
 
 .naampersoon {
     font-family: 'Raleway', sans-serif;
-    font-size: 20pt
+    font-size: 15pt;
+    color: rgb(210, 0, 188);
+    margin-top: 20px
 }
 
-.taakpersoon{
+.taakpersoon {
     font-family: 'Raleway', sans-serif;
     font-size: 12pt
 }
 
 .titelheromenu {
-    padding: 60px;
-    color: white;
-    font-size: 35pt;
+    padding: 30px;
+    color: black;
+    font-size: 30pt;
+    margin-top: 130px;
     text-align: center;
     letter-spacing: 5px;
 }
 
-.heromenu {
-    background-color: black;
-}
-
 .titelmenu {
     text-align: left;
-    padding: 30px;
-    font-size: 25px;
-    margin-top: 50px
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 40px;
+    font-size: 15pt;
+    margin-top: 30px
 }
 
 .alineamenu {
     text-align: left;
-    margin-left: 50px;
-    font-size: 12pt;
+    margin-left: 90px;
+    font-size: 9pt;
 }
 
 .video {
-    text-align: left;
     padding: 30px;
     margin-top: 40px;
+    width: 30px
+}
+
+.reservatie {
+    text-align: center
 }
 
 .buttonreservatie {
     margin-top: 50px;
-    color: black;
-    background-color: rgb(237, 191, 62);
+    color: white;
+    background-color: rgb(210, 0, 188);
     font-family: 'Raleway', sans-serif;
     font-size: 15pt;
     border: none;
-    padding: 20px;
+    padding: 10px;
     text-align: center
 }
 
@@ -193,33 +244,32 @@ h1 {
 }
 
 .heroreserveren {
-    background-color: black;
-    color: white;
-    font-size: 70pt;
+    color: black;
+    font-size: 30pt;
     text-align: center;
-    padding: 50px
+    padding: 30px;
+    margin-top: 120px
 }
 
 .heroreserverenunder {
-    color: rgb(237, 191, 62);
+    color: rgb(210, 0, 188);
     font-size: 13pt;
 }
 
 .reserverenmenu {
     font-family: 'Raleway', sans-serif;
-    padding: 5px;
-    margin-top: 30px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    font-size: 12pt
 }
 
 .buttonsubmit {
     margin-top: 50px;
-    color: black;
-    background-color: rgb(237, 191, 62);
+    color: white;
+    background-color: rgb(210, 0, 188);
     font-family: 'Raleway', sans-serif;
     font-size: 15pt;
     border: none;
-    padding: 20px;
+    padding: 10px;
     text-align: center
 }
 
@@ -229,30 +279,32 @@ h1 {
 }
 
 .herocontact {
-    background-color: rgb(237, 191, 62);
     color: black;
     text-align: center;
-    padding: 60px;
 }
 
 .titelcontact {
-    font-size: 50pt;
-    margin-top: 40px
+    font-size: 30pt;
+    padding: 30px;
+    margin-top: 120px;
+    letter-spacing: 5px
 }
 
 .contactformulier {
     font-family: 'Raleway', sans-serif;
     padding: 30px;
+    font-size: 12pt
 }
 
 .buttoncontact {
     margin-top: 50px;
-    color: black;
-    background-color: rgb(237, 191, 62);
+    color: white;
+    background-color: rgb(210, 0, 188);
     font-family: 'Raleway', sans-serif;
     font-size: 15pt;
     border: none;
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 30px
 }
 
 .buttoncont {
@@ -264,95 +316,158 @@ h1 {
     background-color: black;
 }
 
-
 #footer {
     height: 85px;
     padding: 30px;
-    color: white;
-    background-color: black;
+    color: black;
     text-align: left;
     font-family: 'Raleway', sans-serif;
     z-index: 20;
-    font-size: 8pt
+    font-size: 6pt
 }
 
 .footertekst {
     text-align: left
 }
 
+.maps {
+    text-align: center
+}
+
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .heroimg{
-        background-image: url("../images/heading.jpg")
+    .navbar {
+        background-color: transparent
     }
-    
-    .titelabout {
-        padding: 200px;
-        color: white;
-        font-size: 100pt;
+    #slide {
+        position: absolute;
+        left: -300px;
+        -webkit-animation: slide 0.5s forwards;
+        -webkit-animation-delay: 2s;
+        animation: slide 0.2s forwards;
+        animation-delay: 0.5s;
+        margin-left: 20px
+    }
+    @-webkit-keyframes slide {
+        100% {
+            left: 0;
+        }
+    }
+    @keyframes slide {
+        100% {
+            left: 0;
+        }
+    }
+    .heroimg {
+        height: 200px
+    }
+    .headingtitel {
+        font-size: 50pt;
         text-align: center;
-        letter-spacing: 5px
+        margin-top: 180px
+    }
+    .alineaindex {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12pt
+    }
+    .subscribe {
+        padding: 30px;
+        margin: 0 auto;
+        margin-bottom: 30px
+    }
+    .newsletter {
+        margin-left: 610px;
+        width: 100px
+    }
+    #email {
+        width: 300px
+    }
+    input.btn.btn-lg {
+        font-size: 12pt;
+        font-family: 'Raleway', sans-serif;
+        width: 40%;
+        height: 40px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    button.btn {
+        background-color: rgb(210, 0, 188);
+        font-size: 12pt;
+        font-family: 'Raleway', sans-serif;
+        width: 150px;
+        height: 40px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border: none;
+        vertical-align: middle;
+    }
+    .btn:hover {
+        background-color: black
+    }
+    .btn:active {
+        background-color: white;
+        color: black;
+        border: none
     }
     .titelmtt {
-        padding: 200px;
-        color: white;
-        font-size: 80pt;
+        padding: 30px;
+        margin-top: 100px;
+        color: black;
+        font-size: 50pt;
         text-align: center;
         letter-spacing: 5px
     }
     .titelheromenu {
-        padding: 200px;
-        color: white;
-        font-size: 100pt;
+        padding: 30px;
+        margin-top: 100px;
+        color: black;
+        font-size: 50pt;
         text-align: center;
         letter-spacing: 5px
     }
     .titelmenu {
         text-align: left;
         padding: 30px;
-        font-size: 30px;
-        margin-top: 50px
+        font-size: 15pt;
     }
     .alineamenu {
         text-align: left;
         margin-left: 100px;
-        font-size: 15pt;
+        font-size: 12pt;
         margin-bottom: 50px;
         margin-top: 20px
     }
-    .video {
-        padding: 30px;
-        text-align: right
-    }
     .buttonreservatie {
         margin-top: 50px;
-        color: black;
-        background-color: rgb(237, 191, 62);
+        color: white;
+        background-color: rgb(210, 0, 188);
         font-family: 'Raleway', sans-serif;
-        font-size: 18pt;
+        font-size: 15pt;
         border: none;
-        padding: 30px;
+        padding: 10px;
     }
     .buttonreservatie:hover {
         color: white;
         background-color: black
     }
     .heroreserveren {
-        background-color: black;
-        color: white;
-        font-size: 100pt;
+        color: black;
+        font-size: 50pt;
+        margin-top: 100px;
         text-align: center;
-        padding: 200px
+        padding: 50px
     }
     .heroreserverenunder {
-        color: rgb(237, 191, 62);
+        color: rgb(210, 0, 188));
         font-size: 20pt
     }
     .reserverenmenu {
         font-family: 'Raleway', sans-serif;
-        padding: 100px
+        padding-left: 100px;
+        padding-right: 100px
     }
     .calltoaction {
         text-align: center;
@@ -362,26 +477,27 @@ h1 {
         color: black
     }
     .herocontact {
-        background-color: rgb(237, 191, 62);
         color: black;
         text-align: center;
-        padding: 200px
+        padding: 50px
     }
     .titelcontact {
-        font-size: 100pt
+        font-size: 50pt;
+        margin-top: 100px
     }
     .contactformulier {
         font-family: 'Raleway', sans-serif;
-        padding: 100px;
+        padding-left: 100px;
+        padding-right: 100px
     }
     .buttoncontact {
         margin-top: 30px;
-        color: black;
-        background-color: rgb(237, 191, 62);
+        color: white;
+        background-color: rgb(210, 0, 188);
         font-family: 'Raleway', sans-serif;
         font-size: 15pt;
         border: none;
-        padding: 20px;
+        padding: 10px;
     }
     .buttoncont {
         text-align: center
@@ -389,9 +505,6 @@ h1 {
     .buttoncontact:hover {
         color: white;
         background-color: black;
-    }
-    .teksthomepagina {
-        background-color: white;
     }
     .titelhomepagina {
         text-align: center;
@@ -408,30 +521,23 @@ h1 {
         margin-right: 300px;
         margin-top: 0;
     }
-    .heroabout {
-        background-color: black;
-        width: 100%
-    }
     .titelabout {
-        padding: 200px;
-        color: white;
-        font-size: 100pt;
+        padding: 30px;
+        margin-top: 100px;
+        color: black;
+        font-size: 50pt;
         text-align: center;
         letter-spacing: 5px
     }
     .vraagabout {
-        font-size: 20pt;
-        color: rgb(237, 191, 62)
+        font-size: 12pt;
+        color: rgb(210, 0, 188);
+        margin-top: 30px
     }
     .tekstabout {
         text-align: left;
         padding: 100px;
-        font-size: 15pt
-    }
-    .alineaindex {
-        text-align: center;
-        padding: 70px;
-        font-size: 12pt
+        font-size: 10pt
     }
     .footer {
         height: 80px;
@@ -444,11 +550,11 @@ h1 {
     #footer {
         height: 80px;
         padding: 30px;
-        color: white;
-        background-color: black;
-        text-align: center;
+        color: black;
+        text-align: left;
         font-family: 'Raleway', sans-serif;
-        z-index: 20
+        z-index: 20;
+        font-size: 12pt
     }
     .footertekst {
         text-align: left
@@ -460,14 +566,9 @@ h1 {
         font-size: 30pt;
         padding: 100px
     }
-    .foodtruck {
-        width: 100%
-    }
-    .meettheteamtitel {
-        background-color: black
-    }
-    .heromenu {
-        background-color: black;
+    .maps {
+        text-align: center;
+        margin-top: 40px
     }
     .titelmenuvideo {
         text-align: left;
@@ -476,31 +577,28 @@ h1 {
         margin-left: 150px;
         margin-top: 50px
     }
+    .video {
+        padding: 30px;
+        margin-top: 40px;
+        width: 30px;
+        text-align: center;
+        margin-left: 650px
+    }
     .reservatie {
         text-align: center
     }
     .buttonsubmit {
         margin-top: 50px;
-        color: black;
-        background-color: rgb(237, 191, 62);
+        color: white;
+        background-color: rgb(210, 0, 188);
         font-family: 'Raleway', sans-serif;
-        font-size: 18pt;
+        font-size: 15pt;
         border: none;
-        padding: 20px;
+        padding: 10px;
     }
     .buttonsubmit:hover {
         color: white;
         background-color: black
-    }
-    .article {
-        padding: 40px;
-    }
-    .article-small {
-        padding: 20px;
-    }
-    .article-inverse {
-        background-color: #2c3530;
-        color: white;
     }
     #map {
         width: 100%;
@@ -515,10 +613,11 @@ h1 {
     }
     .persoon {
         text-align: center;
-        color: white;
-        background-color: rgb(237, 191, 62);
+        color: black;
         height: 600px;
-        padding: 100px
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-right: 50px
     }
     .persoon1 {
         height: 220px;
@@ -537,13 +636,19 @@ h1 {
     }
     .naampersoon {
         font-family: 'Raleway', sans-serif;
-        font-size: 18pt
+        font-size: 15pt;
+        color: rgb(210, 0, 188)
+    }
+    .taakpersoon {
+        font-family: 'Raleway', sans-serif;
+        font-size: 12pt
     }
     .sprite {
-        width: 192px;
+        width: 48px;
         height: 48px;
         background-image: url('../images/spritesheet.png');
-        float: right
+        float: right;
+        display: block;
     }
     .sprite-facebook {
         background-position-x: 0px;
