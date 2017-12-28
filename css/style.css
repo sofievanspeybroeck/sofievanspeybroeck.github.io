@@ -359,7 +359,7 @@ button.btn {
     }
 
     .pdf{
-        text-decoration: none;
+        color: black
     }
 
 
@@ -691,5 +691,9 @@ button.btn {
     }
     .sprite-mail:hover {
         background-position-y: -48px;
+    }
+
+    .pdf{
+        color: black
     }
 }
